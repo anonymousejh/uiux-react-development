@@ -1,0 +1,1 @@
+export type Drivetrain = 'Gasoline' | 'Hybrid' | 'Electric'

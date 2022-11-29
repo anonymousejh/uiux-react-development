@@ -1,0 +1,42 @@
+.item-card {
+    display: flex;
+    width: 400px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.img-wrapper {
+    width: 60%;
+}
+
+.item-card-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.description-wrapper {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.name {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.year {
+    text-align: justify;
+}
+
+.price {
+    text-align: justify;
+}
+
+.drivetrain {
+    text-align: justify;
+}
