@@ -1,46 +1,11 @@
-# Getting Started with Create React App
+# Describe the goal of the application and value to a user
+The goal of my application is for family members to buy cars for the entire family when moving to a new country or state. This might be helpful for balancing budgets all in one application - as current car dealership websites are confusing and make it difficult to compare prices especially when purchasing multiple used cars.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Link to your deployed web application running online
+https://uiux-development.web.app
 
-## Available Scripts
+# Explain the organization of your Components, and the props and state related to them
+I used components to create each card (representing one car). The props for the card component includes all necessary info relating to that car as well as a state array in order to keep track of what cars have been added to my fleet. I used ChakraUI for the buttons and drop down selectors. The main App contains the filters, sorters and the wrapper for all my cards.
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Note the usability principles considered for layout and hierarchy
+I took a very neutral color scheme apporach to ensure that the website is easily accessible and that the car and buttons are highly visibile. I also made sure that the website is responsive. I created a clear heirarchy with a top bar (with headers, aggregate info, filters and sort) and the lower content area. 
