@@ -9,3 +9,5 @@ I used components to create each card (representing one car). The props for the 
 
 # Note the usability principles considered for layout and hierarchy
 I took a very neutral color scheme apporach to ensure that the website is easily accessible and that the car and buttons are highly visibile. I also made sure that the website is responsive. I created a clear heirarchy with a top bar (with headers, aggregate info, filters and sort) and the lower content area. 
+
+:)
